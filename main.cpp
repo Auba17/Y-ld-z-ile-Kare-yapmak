@@ -4,10 +4,14 @@ using namespace std;
 int main(){
 	setlocale(LC_ALL, "Turkish");
 	int yukseklik,genislik;
+	cout<<"***********************************";
+	cout<<endl;
 	
-	cout<<"Lütfen dikdörtgenin yüksekliğini giriniz :";
+	cout<<"Lutfen dikdorgenin yuksekligini giriniz :";
     cin>>yukseklik;
-    cout<<"Lütfen dikdörtgenin genişliğini giriniz :";
+    cout<<"***********************************";
+	cout<<endl;
+    cout<<"Lutfen dikdortgenin genisligini giriniz :";
     cin>>genislik;
     for (int i = 1; i <= yukseklik; i++)
             {
